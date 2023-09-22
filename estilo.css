@@ -1,0 +1,148 @@
+/* Colocar fonte e configs do cabelhaço */
+body{
+    font-family: Arial;
+    margin:0;
+    padding: 0;
+    border: 0;
+}
+/* Estilização do topo */
+header{
+    background-color: #2c2b2a;
+    padding: 10px;
+}
+/* Estilização da lista */
+nav{
+    position: absolute;
+    right: 0;
+    top: 70px;
+}
+/* Afastando as opções */
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+/* Estilização da lista, definindo cor, tirando sublinhado, colocando em negrito e tamanho da fonte */
+.nav a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 22px;
+}
+/* Estilização dos linc quando o mouse estiver em cima */
+nav a:hover{
+    color: red;
+    text-decoration: underline;
+}
+/* Estilização do cabeçalho */
+.logo_caixa{
+    position: relative;
+    width: 940px;
+    margin: auto;
+}
+/* Estilização do tamanho do logo */
+.logo{
+    width: 40%;
+}
+/* Estilização do banner */
+.banner{
+    position: relative;
+    width: 100%;
+    margin: auto;
+}
+/* Estilização da imagem */
+.forno-img{
+    width: 100%;
+    position: relative;
+}
+/* Sobre a pizzaria Seu pizza */
+.pizza{
+    width: 100px;
+    float: left;
+    margin: 0 20px;
+    padding-left: 20px;
+}
+
+.titulo-pizza{
+    text-align: center;
+    clear: left;
+    font-size: 3em;
+}
+.sobre-pizzaria{
+    background-color: #FFFFFE;
+    width: 80%;
+    margin: auto;
+}
+
+.titulo-padrao{
+    text-align: center;
+    font-size: 3em;
+    padding: 0%;
+}
+/* Estilização da seção nosso estabelecimento*/
+.mapa{
+    text-align: center;
+    background: linear-gradient(#FFFFFE, #FFBB00);
+}
+.beneficio{
+    background-color: #FFBB00;
+    padding: 50px;
+}
+.titulo-beneficios{
+    text-align: center;
+    font-size: 3em;
+}
+.lista-beneficios{
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+.lista-beneficios{
+    list-style: " 🍕 ";
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 30%;
+}
+.lista-beneficios li{
+    line-height: 1.5;
+}
+.lista-beneficios li:before{
+    content: "😋 - ";
+}
+.lista-beneficios li:first-child{
+    font-weight: bold;
+}
+.img-beneficios{
+    width: 150px;
+    box-shadow: 10px 10px 5px 0 black;
+    opacity: 1;
+    transition: 400ms;
+}
+.img-beneficios:hover{
+    opacity: 0.7;
+}
+.video{
+    width: 720px;
+    margin: 80px auto;
+    display: block;
+}
+footer{
+    background-image: url(bg.jpg);
+    text-align: center;
+    margin: auto;
+    padding: 40px 0 40px 0;
+}
+
+.logo_footer{
+    display: block;
+    margin: 0 auto;
+    width: 20%;
+}
+
+.copyright{
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    margin: 20px auto;
+}
