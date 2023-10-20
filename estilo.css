@@ -146,3 +146,124 @@ footer{
     text-align: center;
     margin: 20px auto;
 }
+
+.ul{
+    width: 330;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: solid red 5px;
+    margin: 20px;
+    padding: 0%;
+    justify-content: center;
+    align-items: center;
+}
+.Pizza-1{
+    list-style: none; 
+    text-align: left;
+    margin: 30px;
+}
+.titulo-mussarela{
+    font-weight: bold;
+    list-style: none; 
+    font-size: 1.5em;    
+}
+.texto-mussarela{
+    list-style: none; 
+    font-weight: lighter; 
+    font-size: x-small;
+    
+}
+.Pizza-mussarela{
+    list-style: none; 
+    width: 100px; 
+}
+.preço-mussarela{
+    list-style: none; 
+    font-weight: bold;
+     font-size: 1.5em;  
+}
+
+.ul2{
+    width: 330;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: solid red 5px;
+    margin: 20px;
+    padding: 0%;
+    justify-content: center;
+    align-items: center;
+}
+.Pizza-2{
+    list-style: none; 
+    text-align: left;
+    margin: 30px;
+}
+.titulo-Portuguesa{
+    font-weight: bold;
+    list-style: none; 
+    font-size: 1.5em;    
+}
+.texto-Portuguesa{
+    list-style: none; 
+    font-weight: lighter; 
+    font-size: x-small;
+    
+}
+.Pizza-Portuguesa{
+    list-style: none; 
+    width: 100px; 
+}
+.preço-portuguesa{
+    list-style: none; 
+    font-weight: bold;
+     font-size: 1.5em;  
+}
+
+.ul3{
+    width: 330;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: solid red 5px;
+    margin: 20px;
+    padding: 0%;
+    justify-content: center;
+    align-items: center;
+}
+.Pizza-3{
+    list-style: none; 
+    text-align: left;
+    margin: 30px;
+}
+.titulo-frango{
+    font-weight: bold;
+    list-style: none; 
+    font-size: 1.5em;    
+}
+.texto-frango{
+    list-style: none; 
+    font-weight: lighter; 
+    font-size: x-small;
+    
+}
+.Pizza-frango{
+    list-style: none; 
+    width: 100px; 
+}
+.preço-frango{
+    list-style: none; 
+    font-weight: bold;
+     font-size: 1.5em;  
+}
+
+.pizzas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
